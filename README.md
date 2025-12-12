@@ -50,13 +50,12 @@ El pipeline completo incluye:
 ```text
 .
 ├── notebooks/
-│   └── modelo  # Notebook principal: entrenamiento + métricas + TorchScript + ejemplos  Modelo exportado a TorchScript
-├── models/
-│   └── traffic_signs_yolo.torchscript  # (copiado desde HuggingFace)
+│   └── modelo  # Notebook principal: entrenamiento + métricas + TorchScript + ejemplos  Modelo exportado a TorchScript + HuggingFace
 ├── scripts/
-│   ├── infer_local.py                  # Inferencia local (modelo en disco)
-│   └── infer_api.py                    # Inferencia consumiendo la API en HuggingFace
-├── presentacion.pdf
+│   └── inferencia.ipynb                    # Inferencia consumiendo la API en HuggingFace
+├── recursos/ # Videos e imagenes utilizadas para probar el modelo
+│
+├── PDI_PRESENTACION_FINAL.pdf
 ├── requirements.txt                    # Dependencias de Python
 └── README.md
 ````
