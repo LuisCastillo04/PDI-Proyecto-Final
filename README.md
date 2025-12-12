@@ -92,8 +92,7 @@ pip install ultralytics opencv-python matplotlib
 
 El entrenamiento se realiza en el notebook:
 
-* `notebooks/modelo.ipynb` 👉 (ajustar el nombre si es otro)
-
+* `notebooks/modelo.ipynb` 
 Pasos principales en el notebook:
 
 1. Descargar el dataset desde Roboflow (formato YOLOv8).
@@ -259,8 +258,6 @@ Además, se muestran:
 * Ejemplos de detección sobre imágenes de validación.
 * Ejemplo de detección local (modelo TorchScript).
 * Ejemplo de detección vía API (Space de HuggingFace).
-
-👉 Los valores numéricos concretos (mAP, F1, etc.) pueden incluirse en la presentación y/o en el informe escrito.
 
 ---
 
